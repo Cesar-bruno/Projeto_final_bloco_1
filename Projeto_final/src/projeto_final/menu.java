@@ -4,14 +4,17 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import projeto_final.model.Categoria;
 import projeto_final.util.Cores;
 
 public class menu {
 	static Scanner leia = new Scanner(System.in); 
 	
 	public static void main(String[] args) {
-		int idade, opcao, categoria;
-		String nome;
+		int idade, opcao, categoria, cpf;
+		String nome, nomeDaMae;
+		
+		
 		
 		
 		while(true){
@@ -23,7 +26,7 @@ public class menu {
 			System.out.println("                                          ");
 			System.out.println("1 : Cadastrar Jogador                     ");
 			System.out.println("2 : Listar todos os Jogadores             ");
-			System.out.println("3 : Buscar jogador por categoria          ");
+			System.out.println("3 : Buscar jogador por número             ");
 			System.out.println("4 : Alterar dados de um jogador           ");
 			System.out.println("5 : Excluir Conta                         ");
 			System.out.println("0 : sair                                  ");
