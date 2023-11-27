@@ -20,7 +20,7 @@ public class CategoriaMaior extends Categoria{
 	@Override
 	public void  visualizar() {
 		super.visualizar();
-		System.out.println("Nome da Mãe :" + this.cpf);
+		System.out.println("CPF :" + this.cpf);
 		
 	}
 

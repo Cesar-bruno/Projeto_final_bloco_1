@@ -3,6 +3,7 @@ package projeto_final.model;
 public class categoriaMenor extends Categoria{
 
 	private String nomeDaMae;
+	
 	public categoriaMenor(int numero, int idade, int sub, String nome,String nomeDaMae) {
 		super(numero, idade, sub, nome );
 		this.nomeDaMae = nomeDaMae;
